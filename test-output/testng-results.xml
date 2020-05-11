@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18119" started-at="2020-05-07T03:20:07Z" finished-at="2020-05-07T03:20:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18119" started-at="2020-05-07T03:20:07Z" finished-at="2020-05-07T03:20:25Z">
+      <class name="ProjectMy.BaseClass">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:ProjectMy.BaseClass@14acaea5]" name="beforeMethod" is-config="true" duration-ms="14966" started-at="2020-05-07T08:50:07Z" finished-at="2020-05-07T08:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:ProjectMy.BaseClass@14acaea5]" name="f" duration-ms="2432" started-at="2020-05-07T08:50:22Z" finished-at="2020-05-07T08:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ProjectMy.BaseClass@14acaea5]" name="afterMethod" is-config="true" duration-ms="697" started-at="2020-05-07T08:50:25Z" finished-at="2020-05-07T08:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ProjectMy.BaseClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
