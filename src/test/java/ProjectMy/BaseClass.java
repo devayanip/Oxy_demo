@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 
 public class BaseClass 
@@ -35,6 +36,12 @@ public class BaseClass
 	  {
 		  System.setProperty("webdriver.chrome.driver", "Resource1/chromedriver.exe");
 		  driver=new ChromeDriver();
+	  }
+	  
+	  else if(browser.equals(brow))
+	  {
+		  System.setProperty("webdriver.ie.driver", "Resource1/IEdriverServer.exe");
+		  driver=new InternetExplorerDriver();
 	  }
 	
 	  driver.get("https://opensource-demo.orangehrmlive.com/");
